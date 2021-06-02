@@ -7,9 +7,9 @@ int main(){
       printf("%c",str);
    }
     fclose(file);
-    if (file = fopen("Second.txt", "w")){
+    if (file = fopen("first.txt", "w")){
       if(fprintf(file, "Second") >= 0)
-      printf("Write operation successful");
+      printf("\n\nWrite operation successful");
    }
    fclose(file);
 
